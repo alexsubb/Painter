@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AppActivity">
+    <item
+        android:id="@+id/addLine"
+        android:orderInCategory="100"
+        android:title="Добавить линию"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addTriangle"
+        android:orderInCategory="100"
+        android:title="Добавить треугольник"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addRectangle"
+        android:orderInCategory="100"
+        android:title="Добавить прямоугольник"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/operation"
+        android:orderInCategory="100"
+        android:title="Выполнить операцию"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:title="Удалить выделеннию фигуру"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="Редактировать"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/groop"
+        android:orderInCategory="100"
+        android:title="Групировать"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ungroop"
+        android:orderInCategory="100"
+        android:title="Разгрупировать"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/morf"
+        android:orderInCategory="100"
+        android:title="Морфинг"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cadr"
+        android:orderInCategory="100"
+        android:title="Создать кадр"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/clearcadr"
+        android:orderInCategory="100"
+        android:title="Очистить кадры"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="Сохранить в файл"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/load"
+        android:orderInCategory="100"
+        android:title="Открыть файл"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="Выход"
+        app:showAsAction="never" />
+
+
+</menu>
